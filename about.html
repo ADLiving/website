@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- <link rel="stylesheet" type="text/css" href="css/style.css">-->
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .main{
+        background-image: linear-gradient(180deg, skyblue, white);
+    }
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: blue;
+    padding: 60px 10%;
+}
+
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    color: #f1bc0d;;
+
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    color: white;
+    padding-left: 2px;
+}
+
+.links a{
+    
+   padding: 15px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+    
+}
+
+
+
+
+@media(max-width: 740px){
+    .footer-col{
+       n-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+}
+
+@media(max-width: 555px){
+    .footer-col{
+        width: 100%;
+    }
+}
+  
+</style>
+<style>
+  .whatsapp_float{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+ 
+  }
+</style>
+<div class="main">
+
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary"style="background-color: blue;">   
+  <div class="container-fluid">
+  <img src="image/ad.png" width="75px" height="60px">
+  <img src="image/telephone.png" width="22px" height="22px" style="margin-left: 4%;">
+  <h5 style="margin-left: 4px; color: white; margin-right: 50px;">+91 9825675267</h5>
+  <a href="https://maps.app.goo.gl/bXFschH66WpwrHC66 "><img src="image/google-maps.png" height="22px" width="22px" style="margin-left:6%;"></a>
+  <h5 style="margin-left: 4px; color: white;">Ahmdabad, Gujarat</h5>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.php" style="margin-right: 12px;">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.php" style="margin-right: 10px;">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="room.php" style="margin-right: 8px;">ROOM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.php" style="margin-right: 6px;">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php" style="margin-right: 4px;">CONTACT</a>
+        </li>
+      </ul>
+      <div>
+        <button type="button" class="btn btn-danger" style="margin-left: 2px;">ENQUIRY NOW</button>
+      </div>
+    
+    </div>
+  </div>
+</nav>
+
+
+
+<section class="my-5">
+  <div class="py-5">
+     <h3 class="text-center" style="font-family: georgia, serif;  font-size: 4em;">ABOUT US</h3>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <img src="image/whyad.jpg" class="img-fluid aboutimg" height="40px">
+    </div>
+    <div class="col-lg-6 col-md-6 col-12">
+      <h2 class="display-4" style="font-family: georgia, serif;  font-size: 3em;">WELCOME TO <b>AD LIVING</b></h2>
+        <p class="py-5" style="font-size: 30px;">Every student’s and young professionals search for the best LIVING in Ahmedabad truly ends here. Stay AD LIVING offers students and young professionals the kind of living experience that other traditional paying guests in Ahmedabad lack. </p>
+      <p class="py-5" style="font-size: 30px;">We understand the unique needs of working professionals and students. Our thoughtfully designed spaces and amenities ensure that you have everything you need to live comfortably, work efficiently, and connect meaningfully. Whether you want to unwind after a long day at work or engage with like-minded individuals, our PG offers the perfect environment for both.
+</p>
+          <a href="about.php" class="btn btn-success"> Read More</a>  
+    </div>
+  </div>
+</div>
+</section>
+
+
+<footer>
+        <div class="footer-col">
+            <img src="image/ad.png" width="90px" height="75px" style="margin-right:200px;">
+            <ul>
+                <h3 style="margin-top: 30px; font-size: 1.6em;">Office Address:-</h3>
+                <p style="font-size: 1.2em;">SF/2,Second Floor, Urja House, Nr.Liberty Showroom, Swastik Char Rasta, Navrangpura, Ahmedabad-380009.</p>
+              </br>
+              <h3 style="font-size:1.6em;">Contact:</h3>
+              <p style="font-size:1.5em;">+91 98256 75267</p>
+              
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4 style="margin-left: 95px; font-size: 1.6em;">Quick Links</h4>
+            <ul>
+                <li style="margin-left: 95px; font-size: 1.3em;"><a href="about.php">ABOUT US</a></li>
+                <li style="margin-left: 95px; font-size: 1.3em;"><a href="service.php">SERVICES</a></li>
+                <li style="margin-left: 95px; font-size: 1.3em;"><a href="room.php">ROOMS</a></li>
+                <li style="margin-left: 95px; font-size: 1.3em;"><a href="room.php">GALLERY</a></li>
+               
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4 style="font-size: 1.6em;">Terms Feed</h4>
+            <ul>
+                <li style="font-size: 1.3em;"><a href="t&c.php">TERMS & CONDITION</a></li>
+                <li style="font-size: 1.3em;"><a href="privacy.php">PRIVACY & POLICY</a></li>
+             </ul>
+        </div>
+        <div class="footer-col">
+            <h4 style="font-size: 1.6em;">Follow Us</h4>
+            <div class="links">
+                <a href="https://www.instagram.com/ad__living?utm_source=qr&igsh=MW4wNHJqcWZmOWdkYw=="><img src="image/instagram.png" width="35px" height="35px"></a>
+                <a href="https://www.facebook.com/profile.php?id=61550584150380&mibextid=ZbWKwL"><img src="image/facebook.png" width="35px" height="35px"></a>
+                <a href="https://www.linkedin.com/in/ad-living-2ba742224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="image/linkdin.png" width="47px" height="47px"></a>
+                 <a href="https://www.justdial.com/Ahmedabad/AD-Living-Navrangpura/079PXX79-XX79-190311100204-D7X4_BZDET"><img src="image/jd.png" width="38px" height="38px"></a>
+                 
+            </div>
+        </div>
+    </footer>
+ </div>
+
+
+</body>
+</html>
